@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Signika);
+
+* {
+	font-family: 'Signika', sans-serif;
+	overflow-x:hidden;
+}
+
+body {
+	background-color:#F0F1F5;
+}
+
+.navTop {
+	background-color:#F8F8F8;
+	border-radius: 0px;
+	border: 0px;	
+}
+
+.navigationList a {
+	color:#5A5A5A;
+	font-size: 17px;
+	overflow:hidden;
+}
+
+.navigationList a:hover {
+	color:#3F3F3F; 
+}
+
+#bodyTop {
+	margin-top:-20px;	
+}
+
+#bodyTop img {
+	max-height: 600px;
+	min-height: 300px;
+	width: 100%;
+}
+
+.captionInner {
+	margin-bottom:2%;
+	background-color:rgba(231, 231, 231, .55);
+}
+
+.captionInner h3{
+}
+
+/*For aboutUs.php*/
+.headerTop {
+	background-color:#3498DB;
+	margin-top:-20px;
+}
+
+.headerInner {
+	border-bottom:none;
+}
+
+.headerTop h1 {
+	padding-top:20px;
+	padding-bottom:20px;
+	color:#ecf0f1;
+}
+
+.headerInner small {
+	color:#D6D6D6;
+}
+
+/*Footer styles*/
+#footerTop {
+	border:none;
+	background-color:#586474;
+	color: #F8F8F8;
+	text-align:center;
+}
+
+#footerTop {
+	padding-top:20px;
+	padding-bottom:10px;
+}
+
+.footerTopIn p {
+	font-size:17px;
+}
+
+.alignment {
+	margin-top:10px;
+}
+
+#footerBottom {
+	background-color:#4D545E;
+	border:none;
+	overflow:hidden;
+}
